@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Site URL]()
+- Live Site URL: [Live Site URL](https://hassanakhtar8.github.io/huddle-landing-page-with-alternating-feature-blocks-master/)
 
 ### Built with
 
