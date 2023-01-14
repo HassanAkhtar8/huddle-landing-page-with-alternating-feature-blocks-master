@@ -188,12 +188,18 @@ main p {
   cursor: pointer;
 }
 
-#huddle {
-  margin-bottom: -4rem;
+/*#huddle{
+    margin-bottom: -4rem;
 }
-
 .lorem {
-  padding-top: 4rem;
+    margin-top: 4rem;
+}
+*/
+.lep {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-top: 0.8rem;
 }
 
 footer {
@@ -243,4 +249,161 @@ footer p {
 button:hover {
   background-color: rgba(250, 121, 203, 0.75);
   cursor: pointer;
+}
+
+@media screen and (min-width: 440px) {
+  .item {
+    width: 60%;
+  }
+  #items {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+@media screen and (min-width: 440px) {
+  .item {
+    width: 50%;
+  }
+  #items {
+    width: 60%;
+    margin-left: 15%;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  #fifth h2 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .sect p {
+    line-height: 1.5rem;
+  }
+}
+@media screen and (min-width: 800px) {
+  #logo {
+    width: 20%;
+  }
+  #first {
+    height: 50vh;
+  }
+  .topp {
+    display: flex;
+  }
+  .topp #items {
+    width: 30%;
+    margin-left: 0;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .topp p {
+    padding-top: 0;
+    line-height: 1rem;
+  }
+  .topp .start {
+    width: 40%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  h1 {
+    font-size: 1.6rem;
+  }
+  .sect {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 30vh;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    box-shadow: 2px 2px rgb(193, 193, 193);
+    border-radius: 0.5rem;
+  }
+  .sect h2 {
+    font-size: 1.4rem;
+  }
+  .sect p {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+  .sect div {
+    width: 60%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: -3rem;
+  }
+  .sect .item {
+    width: 40%;
+  }
+  #third {
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom: -2rem;
+  }
+  h2 {
+    margin-bottom: 0;
+  }
+  #fifth {
+    border-radius: 0.5rem;
+    width: 50%;
+    margin-left: 26%;
+  }
+  #fifth h2 {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+  }
+  #fifth .start {
+    width: 50%;
+    margin-bottom: 1rem;
+  }
+  #six {
+    margin-top: 20vh;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-auto-flow: column;
+    padding-left: 2rem;
+    padding-right: 3rem;
+  }
+  #six p {
+    font-size: 0.6rem;
+    word-wrap: break-word;
+  }
+  #six ul {
+    display: flex;
+  }
+  #six ul p {
+    padding-bottom: 0;
+  }
+  #six ul div {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  #six footer .fa-brands {
+    font-size: 1rem;
+  }
+  #six footer .fa-brands:hover {
+    font-size: 2.5rem;
+  }
+  #six footer div {
+    padding-top: 0.8rem;
+    margin-bottom: 7rem;
+  }
+  #six footer p {
+    font-size: 0.5rem;
+  }
+}
+@media screen and (min-width: 1180px) {
+  main {
+    width: 60%;
+  }
+  .topp #items {
+    width: 25%;
+  }
+  .sect {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
 }/*# sourceMappingURL=input.css.map */
